@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.brand{
+    background-color: #FAEDCD;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #D4A373;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.navmenu ul{
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D4A373;
+    padding-right: 200px;
+}
+
+.navmenu ul li{
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 25%;
+    text-align: center;
+}
+
+.navmenu ul a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #FEFAE0;
+}
+
+.navmenu ul li:hover{
+    background-color:#B4846C;
+    transition: 0.5s;
+}
+
+/* CONTENT!!!!!!!!!!!!!!! */
+
+.banners{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner{
+   margin-bottom: 0;
+   display: block;
+   height: auto;
+   width: 100%;
+}
+
+.slog{
+    position: absolute;
+    top: 180px;
+    left: 620px;
+    font-weight: 600;
+    font-size: 19px;
+    color: #7D5A50;
+}
+
+.categories{
+    margin-top: 0px;
+    padding-top: 0;
+    border:0;
+    font-family: "Poppins", sans-serif;
+    background-color: #FEFAE0;
+}
+
+.catHeader{
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    color: #7D5A50;
+}
+
+.rooms{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.rooms a:hover{
+    transform: scale(105%); 
+    transition: 0.5s;
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.bedroom{
+    padding-right: 20px;
+    position: relative;
+    width : 407.5px;
+    height : 260px;
+}
+
+.bedText{
+    position: absolute;
+    left: 250px;
+    top: 830px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #7D5A50;
+}
+
+.workspace{
+    padding-right: 20px;
+    position: relative;
+    width: 407.5px;
+    height: 260px;
+
+}
+
+.workText{
+    position: absolute;
+    left: 505px;
+    top: 950px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #7D5A50; 
+}
+
+.livingR{
+    position: relative;
+    width: 407.5px;
+    height: 260px;
+}
+
+.livText{
+    position: absolute;
+    left: 1000px;
+    top: 810px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #7D5A50; 
+}
+
+.promotion{
+    background-color: #FEFAE0;
+    margin: 0;
+    padding: 0;
+}
+
+.promText{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    color: #7D5A50;
+}
+
+.picts{
+    display: flex;
+    flex-direction: row;
+}
+
+.gopay{
+    padding-left: 10px;
+    padding-right: 95px;
+    height: 200px;
+    width: auto;
+}
+
+.ovo{
+    padding-top: 30px;
+    padding-right: 145px;
+    height: 100px;
+    width: auto;
+}
+
+.shopee{
+    padding-top: 30px;
+    padding-right: 145px;
+    height: 100px;
+    width: auto;
+}
+
+.dana{
+    padding-top: 27px;
+    height: 100px;
+    width: auto;
+}
+
+/* FOOTER!!!!!!!!!!!!!!!! */
+
+footer{
+    background-color: #FAEDCD;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: #D4A373;
+    font-style: italic;
+    background-color: #FAEDCD;
+    letter-spacing: 3px;
+}
+
+.rectangle{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    height: 6px;
+    width: 1060px;
+    background-color: #D4A373;   
+}
+
+.socmed{
+    padding: 100px;
+    padding-top: 40px;
+    padding-right: 0;
+}
+
+.socText{
+    color: black;
+}
+
+.socPict{
+    padding-top: 10px;
+    align-items: center;
+}
+
+.socPict img:hover{
+    transform: scale(115%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ig{
+    padding-left: 1px;
+    padding-right: 11.5px;
+    height: 20px; 
+    width: auto;
+}
+
+.fb{
+    padding-right: 11.5px;
+    height: 20px; 
+    width: auto;
+}
+
+.utb{
+    height: 20px; 
+    width: auto;
+}
+
+/* CONTACT US!!!!!!!!!!!!! */
+
+.contactUs{
+    padding: 100px;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+.conText{
+    color: black;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+}
+
+.ePict{
+    padding-top: 6px;
+    padding-right: 7px;
+    height:12px;
+    width:auto;
+}
+
+.eText a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.eText a:hover{
+    text-decoration: underline;
+}
+
+.noTelp{
+    display: flex;
+    flex-direction: row;
+}
+
+.noT{
+    color: black;
+}
+
+.waPict{
+    padding-top: 2.5px;
+    padding-right: 4.5px;
+    height:18px;
+    width:auto;
+}
+
+.subscription{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.subText{
+    color: black;
+}
+
+.subscription a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.subscription a:hover{
+    transform: scale(115%);
+    transition: 0.5s;
+}
+
+
+
+
+
+

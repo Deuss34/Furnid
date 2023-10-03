@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./abtUsStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <div class="brand">Furnid.</div>
+    </header>
+
+    <nav>
+        <div class="navmenu">
+            <ul>
+                <li><a href="../Home/HomePage.html">Home</a></li>
+                <li><a href="../Products/ProductsPage.html">Products</a></li>
+                <li><a href="#subscription">Subscription</a></li>
+                <li><a href="../AboutUs/abtUsPage.html">About Us</a></li>
+            </ul>
+        </div> 
+    </nav>
+
+    <content>  
+        <div class="banner">
+            <h2>about Furnid.</h2>
+            <p>Like all peoples do, we love high quality furniture to use in our houses.<br><br>Furnid is a furniture shop that sells high quality yet cheap furnitures for you house. our company was founded in 2020 by our founder William Amadeus. William created this company based on his passion and love for aesthetic and simplistic furniture designs. Now, Furnid has expanded our brands through  offline stores all around Indonesia. Our mission is to bring joy to aesthetic enthusiast throught "Furnid" as we are so happy to provide high quality yet cheap furnitures.</p>
+            <div class="whitespace">test</div>
+        </div>
+    </content>
+
+    <footer>
+
+        <div class="title">Furnid.</div>
+        <div class="rectangle"></div>
+
+        <div class="display">
+        
+        <div class="socmed">
+            <div class="socText">Social Media</div>
+
+            <div class="socPict">
+                <a href="https://www.instagram.com/"><img src="../Assets/HnF/ig.png" alt="" class="ig" height="20px" width="auto"></a>
+                <a href="https://www.facebook.com/"><img src="../Assets/HnF/fb.png" alt="" class="fb" height="20px" width="auto"></a>
+                <a href="https://www.youtube.com/"><img src="../Assets/HnF/utub.png" alt="" class="utb" height="20px" width="auto"></a>
+            </div>
+        </div>
+
+        <div class="contactUs">
+            <div class="conText">Contact us</div>
+
+            <div class="email">
+                <img src="../Assets/HnF/email.png" alt="" class="ePict" height="12px" width="auto">
+                <div class="eText"><a href="https://mail.google.com/mail/u/0/#inbox">Furnid.web@gmail.com</a></div>
+                  
+                        
+            </div>
+            
+            <div class="noTelp">
+                <img src="../Assets/HnF/wa.png" alt="" class="waPict" height="18px" width="auto">
+                <div class="noT">081295457852</div>
+            </div>
+        </div>
+
+        <div class="subscription">
+            <div class="subText">Subscribe to our newsletter</div>
+            <a href="#subscription">Subscribe</a>
+        </div>
+
+
+        </div>
+    </footer>
+
+</body>
+</html>
